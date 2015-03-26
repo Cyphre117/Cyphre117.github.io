@@ -6,7 +6,10 @@ html, head, div, body, h1, h2, h3, h4, p, a, ul, ol, li {
 	font-size: 100%;
 	font-family: "Futura", Helvetica, sans-serif;
 	list-style-type: none;
+}
 
+body {
+	background-color: #aaaaaa;
 }
 h1 {
 	font-size: 70px;
@@ -21,6 +24,12 @@ h3 {
 	font-size: 22px;
 	text-align: left;
 }
+
+.header-content, .core-skills-content, .other-skills-content {
+	width: 640px;
+	margin: 0 auto;
+	padding: 10px 0;
+}
 .header {
 	background-color: #909090;
 	background-image: url(images/sample-bg.jpg);
@@ -28,49 +37,50 @@ h3 {
 	background-repeat: no-repeat;
 	padding: 10px;
 }
-.header-content {
-	width: 640px;
-	margin: 0 auto;
-}
 .header-content p {
 	margin: 10px 0;
 }
-.core-skills {
+
+.core-skills, .other-skills {
 	background-color: #dddddd;
 }
-.core-skills-content {
-	width: 640px;
-	margin: 0 auto;
-	padding: 10px 0;
-}
-.core-skills ul {
+.core-skills ul, .other-skills ul {
 	text-align: center;
+	margin-left: 40px;
 }
-.core-skills li {
+.core-skills li, .other-skills li {
 	display: inline;
 	background-color: white;
 	margin-right: 10px;
 	padding: 4px;
+	border: 1px solid lightgrey;
 }
+
 .projects {
 	background-color: #cccccc;
+}
+.projects img {
+	float: left;
 }
 .projects-content {
 	width: 640px;
 	margin: 0 auto;
 	padding: 10px 0;
 }
+
 .experience {
-	background-color: #dddddd;
+	background-color: #909090;
+}
+.experience div {
+	height: 100px;
+	background-image: url(images/sample-bg.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
 }
 .experience p {
 	width: 640px;
 	margin: 0 auto;
 }
-.other-skills {
-	background-color: #cccccc;
-}
-
 
 
 
