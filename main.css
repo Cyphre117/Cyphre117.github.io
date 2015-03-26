@@ -5,7 +5,7 @@ html, head, div, body, h1, h2, h3, h4, p, a, ul, ol, li {
 	font: inherit;
 	font-size: 100%;
 	font-family: "Futura", Helvetica, sans-serif;
-	list-style-typet: none;
+	list-style-type: none;
 
 }
 h1 {
@@ -19,20 +19,74 @@ h2 {
 }
 h3 {
 	font-size: 22px;
-	text-align: center;
+	text-align: left;
 }
 .header {
-	background-color: #aaaaaa;
+	background-color: #909090;
+	background-image: url(images/sample-bg.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	padding: 10px;
+}
+.header-content {
+	width: 640px;
+	margin: 0 auto;
+}
+.header-content p {
+	margin: 10px 0;
 }
 .core-skills {
 	background-color: #dddddd;
 }
+.core-skills-content {
+	width: 640px;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+.core-skills ul {
+	text-align: center;
+}
+.core-skills li {
+	display: inline;
+	background-color: white;
+	margin-right: 10px;
+	padding: 4px;
+}
 .projects {
 	background-color: #cccccc;
+}
+.projects-content {
+	width: 640px;
+	margin: 0 auto;
+	padding: 10px 0;
 }
 .experience {
 	background-color: #dddddd;
 }
+.experience p {
+	width: 640px;
+	margin: 0 auto;
+}
 .other-skills {
 	background-color: #cccccc;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
