@@ -1,4 +1,4 @@
 # Cyphre117.github.io
-# code.thomashope.co.uk
+view at  http://code.thomashope.co.uk
 
 an experimental personal website
