@@ -62,7 +62,8 @@ h3 {
 	background-color: #073642;
 }
 .projects img {
-	float: left;
+	float: left;	
+	width: 360;
 }
 .projects-content {
 	width: 640px;
