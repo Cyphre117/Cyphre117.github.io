@@ -1,4 +1,4 @@
-/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+/*! modified normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 
 html {
   font-family: sans-serif;
@@ -46,7 +46,7 @@ dfn {
   font-style: italic;
 }
 h1 {
-  font-size: 2em;
+  font-size: 2.0em;
   margin: 0.67em 0;
 }
 mark {
@@ -156,6 +156,15 @@ textarea {
 body {
   width: 640px;
   margin: 0 auto;
+  line-height: 1.2em;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: serif;
+}
+
+h1 {
+  font-size: 2.2em;
 }
 
 .projects li {
