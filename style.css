@@ -1,0 +1,93 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(61, 146, 201);
+}
+
+#layout {
+    padding: 0;
+}
+
+.sidebar {
+	background: rgb(66, 66, 66);
+	color: #fff;
+	padding-bottom: 1em;
+}
+
+.header {
+	text-align: center;
+	top: auto;
+	margin: 1em auto;
+}
+
+.nav-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.nav-item {
+	text-align: center;
+	margin-top: 1em;
+}
+
+.nav-item a {
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	background: transparent;
+	border: 2px solid #fff;
+	color: #fff;
+}
+
+.nav-item a:hover, .nav-item a:focus {
+  color: rgb(61, 146, 201);
+  border-color: rgb(61, 146, 201); 
+}
+
+.content {
+	margin: 0 0.5em;
+}
+
+.image-grid img {
+	width: 100%;
+}
+
+.footer {
+	text-align: center;
+}
+
+/* Use then the browser is > min-width */
+
+@media (min-width: 48em) {
+	.content {
+		padding: 2em 3em 0;
+		margin-left: 25%;
+	}
+
+	.header {
+		margin: 80% 2em 0;
+		text-align: right;
+	}
+
+	.nav-item {
+		margin-right: 2em; 
+		text-align: right;
+	}
+
+	.image-grid {
+		overflow: hidden;
+		/*height: 10em;*/
+		padding: 1%;
+	}
+
+	.sidebar {
+		position: fixed;
+		top: 0;
+		bottom: 0;
+	}
+}
